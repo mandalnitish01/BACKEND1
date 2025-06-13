@@ -1,9 +1,9 @@
-### 🔐 MERN Stack Authentication System – Backend Description
+# 🔐 MERN Stack Authentication System – Backend Description
 
 
 
 ## 1. User Registration (Signup)
-# API Endpoint: POST /api/v1/user/register
+### API Endpoint: POST /api/v1/user/register
 
 - Accepts user details (name, email, password) from the frontend.
 
@@ -14,7 +14,7 @@
 - Optionally generates a verification token or sends a welcome email.
 
 ## 2. User verification (email)
-# API Endpoint: GET /api/v1/user/verify/:token
+### API Endpoint: GET /api/v1/user/verify/:token
 
 - Verifies user details (name, email, password) from the frontend.
 
@@ -25,7 +25,7 @@
 - After verification  User can login now.
 
 ## 3. User Login
-# API Endpoint: POST /api/v1/user/login
+### API Endpoint: POST /api/v1/user/login
 
 - Accepts email and password.
 
@@ -42,7 +42,7 @@
 
 
 ## 5. Token-Based Session Management
-# JWT is stored in HTTP-only cookies or localStorage (less secure) on the frontend.
+### JWT is stored in HTTP-only cookies or localStorage (less secure) on the frontend.
 
 Expiry time can be set (e.g., 24 hour).
 
